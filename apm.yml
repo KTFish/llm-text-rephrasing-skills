@@ -1,6 +1,6 @@
 name: skill-template
 version: 1.0.0
-description: Template for a single skill repository.
+description: Skills related to rewriting LLMish text.
 targets:
   - copilot
   - gemini
