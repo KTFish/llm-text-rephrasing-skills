@@ -1,6 +1,6 @@
 ---
 name: llm-text-rephrasing-latex
-description: Use this skill when reviewing text for LLMish phrasing/wording and other LLMish writiing habbits customized for latex documents.
+description: Use this skill when reviewing text for LLMish phrasing/wording and other LLMish writing habits customized for LaTeX documents.
 ---
 
 ## Description

@@ -1,6 +1,6 @@
-name: skill-template
+name: llm-text-rephrasing-skills
 version: 1.0.0
-description: Skills related to rewriting LLMish text.
+description: Collection of skills for rephrasing text and removing LLM-ish writing habits.
 targets:
   - copilot
   - gemini
