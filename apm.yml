@@ -1,5 +1,5 @@
 name: llm-text-rephrasing-skills
-version: 1.0.0
+version: 0.2.0
 description: Collection of skills for rephrasing text and removing LLM-ish writing habits.
 targets:
   - copilot
@@ -8,6 +8,5 @@ targets:
   - claude
 dependencies:
   apm:
-    - danielmeppiel/genesis#18e73c35e5cefaf431fbe4e080e8f125ebfece33
   mcp: []
 includes: auto

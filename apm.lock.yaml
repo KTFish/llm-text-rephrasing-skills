@@ -1,14 +1,91 @@
 lockfile_version: '1'
-generated_at: '2026-08-25T11:01:25.060224+00:00'
-apm_version: 0.27.0
-dependencies:
-- repo_url: danielmeppiel/genesis
-  name: genesis
-  host: github.com
-  resolved_commit: 18e73c35e5cefaf431fbe4e080e8f125ebfece33
-  resolved_ref: 18e73c35e5cefaf431fbe4e080e8f125ebfece33
-  version: 0.4.0
-  package_type: skill_bundle
-  content_hash: sha256:3f941a3e288053f7c0d8111d5febcd2f94de6f9dada7e8479fa676736975a272
-  declared_license: Apache-2.0
-deployments: []
+dependencies: []
+deployments:
+- kind: project-relative
+  target: claude
+  value: .claude/skills/llm-text-rephrasing
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: claude
+  value: .claude/skills/llm-text-rephrasing/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:8b9d951fb1b9168a08e0820dc27d023a038a1078f681fdd142cf589d010861e8
+- kind: project-relative
+  target: claude
+  value: .claude/skills/llm-text-rephrasing/references/latex-gudeline.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:1a5399826c3f0ff12827334aeeb4cb99ad41b8ac8b726cd24091aef7d849be5e
+- kind: project-relative
+  target: claude
+  value: .claude/skills/llm-text-rephrasing/references/markdown-guideline.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:47f41562a3301981563fa2753eb390aa51aaa8313084203af5b19149a506bab8
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/llm-text-rephrasing
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/llm-text-rephrasing/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:8b9d951fb1b9168a08e0820dc27d023a038a1078f681fdd142cf589d010861e8
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/llm-text-rephrasing/references/latex-gudeline.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:1a5399826c3f0ff12827334aeeb4cb99ad41b8ac8b726cd24091aef7d849be5e
+- kind: project-relative
+  target: legacy
+  value: .agents/skills/llm-text-rephrasing/references/markdown-guideline.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:47f41562a3301981563fa2753eb390aa51aaa8313084203af5b19149a506bab8
+local_deployed_files:
+- .agents/skills/llm-text-rephrasing
+- .agents/skills/llm-text-rephrasing/SKILL.md
+- .agents/skills/llm-text-rephrasing/references/latex-gudeline.md
+- .agents/skills/llm-text-rephrasing/references/markdown-guideline.md
+- .claude/skills/llm-text-rephrasing
+- .claude/skills/llm-text-rephrasing/SKILL.md
+- .claude/skills/llm-text-rephrasing/references/latex-gudeline.md
+- .claude/skills/llm-text-rephrasing/references/markdown-guideline.md
+local_deployed_file_hashes:
+  .agents/skills/llm-text-rephrasing/SKILL.md: sha256:8b9d951fb1b9168a08e0820dc27d023a038a1078f681fdd142cf589d010861e8
+  .agents/skills/llm-text-rephrasing/references/latex-gudeline.md: sha256:1a5399826c3f0ff12827334aeeb4cb99ad41b8ac8b726cd24091aef7d849be5e
+  .agents/skills/llm-text-rephrasing/references/markdown-guideline.md: sha256:47f41562a3301981563fa2753eb390aa51aaa8313084203af5b19149a506bab8
+  .claude/skills/llm-text-rephrasing/SKILL.md: sha256:8b9d951fb1b9168a08e0820dc27d023a038a1078f681fdd142cf589d010861e8
+  .claude/skills/llm-text-rephrasing/references/latex-gudeline.md: sha256:1a5399826c3f0ff12827334aeeb4cb99ad41b8ac8b726cd24091aef7d849be5e
+  .claude/skills/llm-text-rephrasing/references/markdown-guideline.md: sha256:47f41562a3301981563fa2753eb390aa51aaa8313084203af5b19149a506bab8

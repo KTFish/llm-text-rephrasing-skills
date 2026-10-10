@@ -2,3 +2,14 @@ skill/
 evals/
 dev/
 apm_modules/
+
+# Per harness primitives
+.agents/
+.gemini/
+.github/agents/
+.github/instructions/
+.claude/
+.cursor/
+
+AGENTS.md
+CLAUDE.md
